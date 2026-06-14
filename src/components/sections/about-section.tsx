@@ -7,25 +7,25 @@ const expertise = [
   {
     title: "Power Apps",
     description:
-      "Building scalable business applications with modern UX principles and enterprise architecture.",
+      "Desarrollo de aplicaciones empresariales escalables con principios modernos de experiencia de usuario (UX) y arquitectura empresarial.",
     icon: LayoutDashboard,
   },
   {
     title: "Power Automate",
     description:
-      "Designing intelligent automation workflows that optimize business processes and productivity.",
+      "Diseño de flujos de trabajo de automatización inteligente que optimizan los procesos de negocio y la productividad.",
     icon: Workflow,
   },
   {
     title: "Dataverse",
     description:
-      "Structuring secure and scalable data models for enterprise-grade Microsoft solutions.",
+      "Estructuración de modelos de datos seguros y escalables para soluciones Microsoft de nivel empresarial.",
     icon: Database,
   },
   {
-    title: "Frontend Development",
+    title: "Desarrollo Frontend",
     description:
-      "Creating modern responsive interfaces using React, Next.js, TypeScript and Tailwind CSS.",
+      "Creación de interfaces responsivas y modernas utilizando React, Next.js, TypeScript y Tailwind CSS.",
     icon: Code2,
   },
 ];
@@ -37,19 +37,15 @@ export function AboutSection() {
         <FadeIn>
           <div className="max-w-3xl">
             <span className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
-              About
+              Sobre mí
             </span>
 
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-5xl">
-              Specialized in building modern business solutions with Microsoft
-              technologies.
+              Especializado en la creación de soluciones empresariales modernas con tecnologías de Microsoft.
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              I focus on designing scalable enterprise solutions using Microsoft
-              Power Platform, automation workflows, data-driven architectures
-              and modern frontend technologies. My goal is to create efficient,
-              maintainable and user-centered digital experiences.
+              Me enfoco en diseñar soluciones empresariales escalables utilizando Microsoft Power Platform, flujos de trabajo de automatización, arquitecturas orientadas a datos y tecnologías frontend modernas. Mi objetivo es crear experiencias digitales eficientes, mantenibles y centradas en el usuario.
             </p>
           </div>
 

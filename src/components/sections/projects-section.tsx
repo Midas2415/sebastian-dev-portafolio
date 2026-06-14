@@ -4,28 +4,28 @@ import { FadeIn } from "@/components/animations/fade-in";
 
 const projects = [
   {
-    title: "Enterprise Approval Automation",
+    title: "Automatización de Aprobaciones Empresariales",
     description:
-      "Automated multi-stage approval workflows using Power Automate and Microsoft 365 integrations for enterprise request management.",
+      "Flujos de trabajo de aprobación multi-etapa automatizados utilizando Power Automate e integraciones de Microsoft 365 para la gestión de solicitudes empresariales.",
     technologies: ["Power Automate", "Microsoft 365", "Dataverse"],
     impact:
-      "Reduced manual approval times and improved operational efficiency across departments.",
+      "Reducción de los tiempos de aprobación manual y mejora de la eficiencia operativa en los distintos departamentos.",
   },
   {
-    title: "Business Management Power App",
+    title: "Power App de Gestión de Negocios",
     description:
-      "Developed a scalable Power Apps solution for internal business operations with role-based access and centralized data management.",
-    technologies: ["Power Apps", "Dataverse", "Responsive UI"],
+      "Desarrollo de una solución escalable en Power Apps para operaciones internas de negocio con acceso basado en roles y gestión de datos centralizada.",
+    technologies: ["Power Apps", "Dataverse", "Interfaz Responsiva"],
     impact:
-      "Centralized workflows and improved productivity for internal business teams.",
+      "Flujos de trabajo centralizados y productividad mejorada para los equipos internos de negocio.",
   },
   {
-    title: "Analytics Dashboard Solution",
+    title: "Solución de Tableros de Analítica",
     description:
-      "Designed interactive dashboards for business reporting and operational analytics using Microsoft ecosystem integrations.",
-    technologies: ["Power BI", "Dataverse", "Business Intelligence"],
+      "Diseño de tableros interactivos para reportes de negocios y analítica operativa utilizando integraciones del ecosistema de Microsoft.",
+    technologies: ["Power BI", "Dataverse", "Inteligencia de Negocios"],
     impact:
-      "Enabled data-driven decision making through real-time operational insights.",
+      "Toma de decisiones impulsada por datos a través de información operativa en tiempo real.",
   },
 ];
 
@@ -37,17 +37,15 @@ export function ProjectsSection() {
           {/* Header */}
           <div className="max-w-3xl">
             <span className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
-              Projects
+              Proyectos
             </span>
 
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-5xl">
-              Enterprise solutions focused on automation and modern business
-              experiences.
+              Soluciones empresariales enfocadas en la automatización y experiencias de negocio modernas.
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              A selection of projects focused on business automation, scalable
-              systems, modern interfaces and enterprise productivity solutions.
+              Una selección de proyectos enfocados en la automatización de negocios, sistemas escalables, interfaces modernas y soluciones de productividad empresarial.
             </p>
           </div>
         </FadeIn>
@@ -94,7 +92,7 @@ export function ProjectsSection() {
                   {/* Impact */}
                   <div className="mt-8 rounded-2xl border border-white/10 bg-black/20 p-5">
                     <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
-                      Business Impact
+                      Impacto de Negocio
                     </p>
 
                     <p className="mt-3 leading-7 text-slate-300">

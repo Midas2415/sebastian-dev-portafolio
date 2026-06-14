@@ -16,28 +16,28 @@ export function Navbar() {
               href="#about"
               className="text-sm text-slate-300 transition hover:text-white"
             >
-              About
+              Sobre mí
             </a>
 
             <a
               href="#projects"
               className="text-sm text-slate-300 transition hover:text-white"
             >
-              Projects
+              Proyectos
             </a>
 
             <a
               href="#skills"
               className="text-sm text-slate-300 transition hover:text-white"
             >
-              Skills
+              Habilidades
             </a>
 
             <a
               href="#contact"
               className="text-sm text-slate-300 transition hover:text-white"
             >
-              Contact
+              Contacto
             </a>
           </nav>
         </div>

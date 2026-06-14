@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Sebastian Martinez",
 
-  role: "Power Platform Developer",
+  role: "Desarrollador de Power Platform",
 
   email: "sebas-24-lds@hotmail.com",
 

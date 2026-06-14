@@ -3,13 +3,13 @@ import { FadeIn } from "@/components/animations/fade-in";
 
 const skillCategories = [
   {
-    title: "Frontend Development",
+    title: "Desarrollo Frontend",
     skills: [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
       "JavaScript",
-      "Responsive Design",
+      "Diseño Responsivo",
     ],
   },
   {
@@ -18,22 +18,22 @@ const skillCategories = [
       "Power Apps (Canvas, Model-driven, Portals)",
       "Power Automate",
       "Dataverse",
-      "Business Automation",
+      "Automatización de Procesos",
     ],
   },
   {
-    title: "Development Tools",
-    skills: ["GitHub", "REST APIs", "VS Code", "Postman", "Agile Workflow"],
+    title: "Herramientas de Desarrollo",
+    skills: ["GitHub", "APIs REST", "VS Code", "Postman", "Metodologías Ágiles"],
   },
   {
-    title: "UI/UX & Architecture",
+    title: "UI/UX y Arquitectura",
     skills: [
-      "Component Architecture",
-      "Modern UI Design",
-      "UX Principles",
-      "Design Systems",
-      "Clean Code",
-      "Scalable Structure",
+      "Arquitectura de Componentes",
+      "Diseño de Interfaces Modernas",
+      "Principios de UX",
+      "Sistemas de Diseño",
+      "Código Limpio",
+      "Estructuras Escalables",
     ],
   },
 ];
@@ -46,17 +46,15 @@ export function SkillsSection() {
           {/* Header */}
           <div className="max-w-3xl">
             <span className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
-              Skills
+              Habilidades
             </span>
 
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-5xl">
-              Modern technologies and enterprise development expertise.
+              Tecnologías modernas y experiencia en desarrollo empresarial.
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              Focused on delivering scalable business solutions using Microsoft
-              technologies, automation systems and modern frontend development
-              practices.
+              Enfocado en ofrecer soluciones empresariales escalables utilizando tecnologías de Microsoft, sistemas de automatización y prácticas modernas de desarrollo frontend.
             </p>
           </div>
         </FadeIn>

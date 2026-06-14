@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sebastian Developer Portfolio",
-  description: "Modern Power Platform Developer Portfolio",
+  title: "Portafolio de Sebastián | Desarrollador",
+  description: "Portafolio profesional de Sebastián, Desarrollador de Power Platform",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${geistSans.variable} ${geistMono.variable} dark`}
     >
       <body className="antialiased">{children}</body>

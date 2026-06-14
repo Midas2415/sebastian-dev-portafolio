@@ -76,16 +76,15 @@ export function ContactSection() {
         <FadeIn>
           <div className="mx-auto max-w-4xl text-center">
             <span className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
-              Contact
+              Contacto
             </span>
 
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-6xl">
-              Lets build modern business solutions together.
+              Construyamos soluciones de negocio modernas juntos.
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              Open to collaborating on Power Platform projects, process
-              automation initiatives and modern frontend development.
+              Abierto a colaborar en proyectos de Power Platform, iniciativas de automatización de procesos y desarrollo frontend moderno.
             </p>
 
             <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
@@ -114,7 +113,7 @@ export function ContactSection() {
                 className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-4 text-white backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/20 hover:bg-white/[0.05]"
               >
                 <Mail size={20} />
-                Email
+                Correo
               </a>
             </div>
           </div>
@@ -125,7 +124,7 @@ export function ContactSection() {
             <p className="text-sm text-slate-500">© 2026 {SITE.name}.</p>
 
             <p className="text-sm text-slate-500">
-              Built with Next.js, TypeScript & Tailwind CSS.
+              Creado con Next.js, TypeScript y Tailwind CSS.
             </p>
           </div>
         </div>
