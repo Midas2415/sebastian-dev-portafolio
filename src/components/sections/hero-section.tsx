@@ -57,6 +57,13 @@ interface Particle {
 //    - Same values on server AND client (fixes SSR hydration mismatch)
 //    - Visually indistinguishable from true random
 function Particles() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(t);
+  }, []);
+
   const particles = useMemo<Particle[]>(
     () =>
       Array.from({ length: 28 }, (_, i) => ({
@@ -70,6 +77,8 @@ function Particles() {
     []
   );
 
+  if (!mounted) return null;
+
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden">
       {particles.map((p) => (
@@ -77,12 +86,12 @@ function Particles() {
           key={p.id}
           className="absolute rounded-full bg-blue-400"
           style={{
-            left: `${p.x}%`,
-            bottom: 0,
-            width: p.size,
-            height: p.size,
-            opacity: p.opacity,
-            animation: `drift ${p.duration}s linear ${p.delay}s infinite`,
+            left: `${p.x.toFixed(4)}%`,
+            bottom: "0px",
+            width: `${p.size.toFixed(4)}px`,
+            height: `${p.size.toFixed(4)}px`,
+            opacity: Number(p.opacity.toFixed(4)),
+            animation: `drift ${p.duration.toFixed(4)}s linear ${p.delay.toFixed(4)}s infinite`,
           }}
         />
       ))}

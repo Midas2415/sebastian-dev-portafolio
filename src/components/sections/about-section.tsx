@@ -1,12 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { FadeIn } from "@/components/animations/fade-in";
 import { GlowCard } from "@/components/animations/glow-card";
 import { Container } from "@/components/ui/container";
 
 /* ─── Bento card variants ──────────────────────── */
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 32, filter: "blur(4px)" },
   visible: (i: number) => ({
     opacity: 1,

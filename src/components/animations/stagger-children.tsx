@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ReactNode } from "react";
 
 interface StaggerChildrenProps {
@@ -10,7 +10,7 @@ interface StaggerChildrenProps {
   staggerDelay?: number;
 }
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: (staggerDelay: number) => ({
     transition: {
@@ -19,7 +19,7 @@ const containerVariants = {
   }),
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 24, filter: "blur(4px)" },
   visible: {
     opacity: 1,
